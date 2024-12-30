@@ -18,22 +18,18 @@ A lightweight interpreter for the Sora programming language, featuring dynamic t
 ### Basic Example
 
 ```python
-from src.interpreter import SoraInterpreter
+from sora import SoraInterpreter
 
-# Basic Sora code
 sora_code = """
 @sora{
-# Variable assignment
 name := "Alice"
 age := 25
 height := 5.8
 
-# Printing with interpolation
 print: Name: $name
 print: Age: $age
 print: Height: $height
 
-# Show all variables
 show_vars
 }
 """
@@ -48,13 +44,11 @@ print(result)
 ```python
 sora_code = """
 @sora{
-# Define function with parameters
 func calculate_area(length, width)
     area := length * width
     print: Area is: $area
 end
 
-# Call function
 call calculate_area(10, 20)
 }
 """
@@ -66,10 +60,8 @@ Strings can be defined with or without quotes:
 ```python
 sora_code = """
 @sora{
-# With quotes
 name := "Alice"
 
-# Without quotes
 city := New York
 
 print: $name lives in $city
