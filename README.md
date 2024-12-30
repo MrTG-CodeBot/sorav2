@@ -2,7 +2,7 @@
 
 A lightweight interpreter for the Sora programming language, featuring dynamic typing, variable management, and basic arithmetic operations.
 
-# I understand you're interested in seeing the code for SoraV2. Unfortunately, it's not available for public sharing right now. This decision is based on some other bugs and issues.
+# I understand you're interested in seeing the code for SoraV2. Unfortunately, it's not available for public sharing right now. Because of bugs and some other issues.
 
 ## Features
 
