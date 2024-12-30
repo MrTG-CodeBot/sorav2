@@ -1,4 +1,4 @@
-from src.interpreter import SoraInterpreter
+from sora import SoraInterpreter
 
 sora_code = """
 @sora{
